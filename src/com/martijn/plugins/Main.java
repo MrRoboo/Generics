@@ -20,7 +20,7 @@ public class Main {
         Team<BaseballPlayer> baseballTeam2 = new Team<>("noHands");
         baseballTeam2.addPlayer(mike);
 
-        baseballTeam.matchResults(baseballTeam2, 4, 4);
+        baseballTeam.matchResults(baseballTeam2, 3, 4);
 
 //        Team<String> doesntWork = new Team<>("pooopp");
 //        doesntWork.addPlayer("pooo");
