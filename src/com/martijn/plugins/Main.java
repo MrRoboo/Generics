@@ -24,7 +24,13 @@ public class Main {
 
 //        Team<String> doesntWork = new Team<>("pooopp");
 //        doesntWork.addPlayer("pooo");
-        System.out.println(baseballTeam.compareTo(baseballTeam2));
+        if (baseballTeam.compareTo(baseballTeam2) == 1) {
+            System.out.println(baseballTeam.getName() + " beats " + baseballTeam2.getName() + " in points!");
+        } else if (baseballTeam.compareTo(baseballTeam2) == -1) {
+            System.out.println(baseballTeam.getName() + " lost from " + baseballTeam2.getName() + " in points!");
+        } else {
+            System.out.println(baseballTeam.getName() + " equals " + baseballTeam2.getName() + "'s their points");
+        }
 
 
     }
