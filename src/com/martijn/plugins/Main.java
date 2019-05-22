@@ -15,7 +15,7 @@ public class Main {
 
         Team<BaseballPlayer> baseballTeam = new Team<>("handsfree");
         baseballTeam.addPlayer(ruud);
-        System.out.println(baseballTeam.numPlayers());
+        System.out.println("clubmembers: " + baseballTeam.numPlayers());
 
         Team<BaseballPlayer> baseballTeam2 = new Team<>("noHands");
         baseballTeam2.addPlayer(mike);
